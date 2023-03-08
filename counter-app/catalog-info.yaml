@@ -1,0 +1,8 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Defendcity
+  description: Defend city from criminals
+spec:
+  owner: group:guests

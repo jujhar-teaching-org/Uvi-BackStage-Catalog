@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: AvengerDatabase
+  description: Database for avengers
+  tags:
+    - mysql
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:guests
+  system: Defendcity
+  subcomponentOf: CriminalDatabase
