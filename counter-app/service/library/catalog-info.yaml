@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: AvengerDatabase
+  name: CityDatabase
   description: Database for avengers
   tags:
     - mysql
@@ -10,4 +10,4 @@ spec:
   lifecycle: experimental
   owner: group:guests
   system: Defendcity
-  subcomponentOf: CriminalDatabase
+  # subcomponentOf: CriminalDatabase
